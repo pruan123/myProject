@@ -31,7 +31,7 @@
 </style>
 
 <script>
-  import data from "./data";
+  import data from "../../static/js/data";
 
   export default {
     data:function(){

@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
-      <router-link to="/area"><button> get city</button></router-link>
+    <div class="menus"></div>
+    <div class="content">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
