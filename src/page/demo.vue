@@ -27,7 +27,7 @@
     mounted() {
       this.test.apply(null, this.args)
       this.test(...this.args) //展开运算符
-      Object.defineProperties(this.obj1, {name: {value: 'aaa'}}) 
+      Object.defineProperties(this.obj1, {name: {value: 'aaa'}})
       Object.defineProperties(this.obj2, {detail: {value: 'bbb'}})
       var obj3 = Object.assign(this.obj1, this.obj2)
       console.log(this.obj2, 88)
