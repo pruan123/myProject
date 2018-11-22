@@ -34,6 +34,7 @@
       console.log(obj3, 99)
     }
   }
+  // 双向绑定
   var oInput1 = document.getElementById('input1');
   var oInput2 = document.getElementById('input2');
   var oSpan = document.getElementById('span');
