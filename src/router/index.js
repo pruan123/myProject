@@ -18,6 +18,13 @@ export default new Router({
         {
           path: 'demo',
           component: () => import('../page/demo')
+        },
+        {
+          path: 'vuexPage',
+          component: () => import('../page/vuexPage')
+        },{
+          path: 'classPage',
+          component: () => import('../page/classPage')
         }
       ]
     }, {
